@@ -6,15 +6,10 @@
           <v-icon x-large dark>mdi-web</v-icon>
         </v-avatar>
         <h2 class="text-h4 text-md-h3 text-center font-weight-black mb-7">
-          The Perfect Theme for Beginners or Professionals
+          Prótesis de bajo costo
         </h2>
         <p class="title font-weight-light">
-          ModeVue — is a carefully crafted multi-purpose, responsive, and
-          gorgeous theme. Built with
-          <strong>Vue.js</strong>
-          and
-          <strong>Nuxt.js</strong>, it comes with the features you need to
-          quickly start developing your application.
+          Las prótesis de Creotec son accesibles para tu economía y de alta calidad. Creotec te envia pruebas de la prótesis hasta que esta sea perfecta para ti
         </p>
       </v-responsive>
 

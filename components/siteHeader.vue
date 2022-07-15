@@ -104,67 +104,42 @@ export default {
       items: [
         {
           icon: 'mdi-folder-home-outline',
-          title: 'Home',
+          title: 'Inicio',
           to: '/',
         },
         {
-          icon: 'mdi-account',
-          title: 'About',
+          icon: 'mdi-human-handsup',
+          title: 'Clientes',
+          to: '/clients',
+        },
+        {
+          icon: 'mdi-hand-heart',
+          title: 'Donaciones',
+          to: '/donations',
+        },
+        {
+          icon: 'mdi-arm-flex-outline',
+          title: 'Maker',
+          to: '/maker',
+        },
+        {
+          icon: 'mdi-handball',
+          title: 'Protesis',
+          to: '/protesis',
+        },
+        {
+          icon: 'mdi-information-outline',
+          title: 'Acerca de',
           to: '/about',
         },
         {
-          icon: 'mdi-tools',
-          title: 'Services',
-          to: '/services',
-          submenu: [
-            {
-              title: 'Services Page',
-              to: '/services',
-            },
-            {
-              title: 'Static Websites',
-              to: '/#',
-            },
-            {
-              title: 'Mobile Applications',
-              to: '/#',
-            },
-            {
-              title: 'Corporate websites',
-              to: '/#',
-            },
-            {
-              title: 'Editorial Sites',
-              to: '/#',
-            },
-            {
-              title: 'Ecommerce and Store',
-              to: '/#',
-            },
-            {
-              title: 'Block Chain Devemopment',
-              to: '/#',
-            },
-          ],
-        },
-        {
-          icon: 'mdi-cash-usd',
-          title: 'Pricing',
-          to: '/pricing',
-        },
-        {
-          icon: 'mdi-folder-image',
-          title: 'Gallery',
+          icon: 'mdi-camera-outline',
+          title: 'Galeria',
           to: '/gallery',
         },
         {
-          icon: 'mdi-blogger',
-          title: 'Blog',
-          to: '/blog',
-        },
-        {
           icon: 'mdi-contacts',
-          title: 'Contact',
+          title: 'Contacto',
           to: '/contact',
         },
       ],
