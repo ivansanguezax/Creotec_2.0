@@ -49,10 +49,10 @@
                 class="text-h4 text-center font-weight-black white--text pt-5"
                 v-text="plan.plan"
               ></h3>
-              <v-card-text
+              <v-card
                 class="text-center subtitle-1 white--text py-2"
-                v-text="plan.description"
-              ></v-card-text>
+                v-card-text="plan.description"
+              ></v-card>
               <v-card-subtitle
                 class="text-h5 font-weight-black text-center white--text pt-0"
                 >{{ planDuration === 'monthly' ? plan.monthly : plan.yearly }}
