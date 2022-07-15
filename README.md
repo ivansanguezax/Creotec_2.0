@@ -2,7 +2,7 @@
 
 **Creotec** — Crear acceso a prótesis a todas las personas que lo necesitan para mejorar su calidad de vida.
 
-## Build Setup
+## Configuración de compilación
 
 Necesitará una computadora con Windows, Mac o Linux con acceso a la línea de comandos y permiso para instalar nuevos paquetes del sistema. Se requiere una conexión a Internet activa para instalar el siguiente software requerido:
 
@@ -39,7 +39,7 @@ Actualmente, nuestro objetivo oficial es admitir las dos últimas versiones de l
 
 <br><br>
 
-## Licensing
+## Licencia
 
 - Copyright 2020 Vuetify, LLC https://vuetifyjs.com
 - Vuetify, LLC [license Information](https://store.vuetifyjs.com/licenses)
