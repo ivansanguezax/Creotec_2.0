@@ -13,31 +13,7 @@
             Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse
             condimentum porttitor cursumus.
           </p>
-          <v-row>
-            <v-col
-              v-for="(card, index) in cards"
-              :key="index"
-              cols="12"
-              sm="6"
-              md="4"
-              xl="2"
-              class="text-center"
-            >
-              <v-avatar size="80" class="mb-5" color="primary">
-                <v-icon dark large>
-                  {{ card.icon }}
-                </v-icon>
-              </v-avatar>
-              <div
-                class="title text-uppercase mt-1 mb-4"
-                v-text="card.title"
-              ></div>
-              <p v-text="card.text"></p>
-              <v-row no-gutters>
-                <v-col cols="12"> </v-col>
-              </v-row>
-            </v-col>
-          </v-row>
+          <Catalog />
         </v-container>
       </v-col>
     </v-row>
@@ -45,7 +21,11 @@
 </template>
 
 <script>
+import Catalog from '@/components/sections/subsections/Catalog'
 export default {
+  components: {
+    Catalog,
+  },
   data() {
     return {
       heroAlt: [

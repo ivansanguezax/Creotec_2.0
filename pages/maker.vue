@@ -59,17 +59,17 @@ export default {
         {
           title: 'Pedido',
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
-          icon: 'mdi-material-design',
+          icon: 'mdi-truck-delivery',
         },
         {
           title: 'Pruebas',
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
-          icon: 'mdi-desktop-mac',
+          icon: 'mdi-hammer-screwdriver',
         },
         {
           title: 'Entrega o Envio',
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
-          icon: 'mdi-eye',
+          icon: 'mdi-hand-coin',
         },
         // {
         //   title: 'Fast Loading',

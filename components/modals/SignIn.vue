@@ -2,6 +2,8 @@
   <div class="text-center">
     <v-dialog
       width="500"
+      v-model="signInDialog"
+      v-if="!$fire.auth.currentUser"
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
@@ -50,8 +52,9 @@
       </v-card>
     </v-dialog>
     <v-dialog
-      
       width="500"
+      v-model="signUpDialog"
+      v-if="!$fire.auth.currentUser"
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
@@ -100,7 +103,7 @@
       </v-card-actions>
       </v-card>
     </v-dialog>
-    <a href="#" @click="signout" color="success">
+    <a href="#" @click="signout" color="success" v-else>
       Hola, {{ user }}
     </a>
     <v-snackbar
@@ -123,7 +126,9 @@ export default {
       formPassword: "",
       snackbar: false,
       snackbarText: "No error message",
-      user: "Sergio"
+      user: "Sergio",
+      signInDialog: false,
+      signUpDialog: false,
     };
   },
   methods: {
@@ -136,6 +141,8 @@ export default {
       }).then((user) => {
         //we are signed in
         console.log(user)
+        console.log(that.$fire.auth.currentUser.multiFactor.user.email)
+        that.signInDialog = false
         that.$router.push('/')
       })
     },
@@ -160,6 +167,7 @@ export default {
       }).then((user) => {
         //we are signed in
         console.log(user)
+        that.signUpDialog = false
         that.$router.push('/')
       })
     },

@@ -53,7 +53,17 @@
 
 <script>
 export default {
-
+    data() {
+        return {
+            form1: {
+                nombre: '',
+                apellidos: '',
+                telefono: '+591 ',
+                email: '',
+                solicitud: '',
+            },
+        }
+    },
 }
 </script>
 

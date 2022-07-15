@@ -2,58 +2,21 @@
   <section id="maker-form">
     <v-container>
         <v-row>
-          <v-bottom-navigation>
-          <v-btn value="recent" @click="active_form=1">
+          <v-bottom-navigation height="150">
+          <v-btn value="recent" @click="active_form=1" class="mr-10">
             <span>Ver catálogo de prótesis</span>
 
             <v-icon>mdi-view-list</v-icon>
           </v-btn>
 
-          <v-btn value="recent" @click="active_form=2">
-            <span>Solicita una protesis</span>
-
-            <v-icon>mdi-truck-delivery</v-icon>
-          </v-btn>
-
-          <v-btn value="favorites" @click="active_form=3">
+          <v-btn value="favorites" @click="active_form=2">
             <span>Crea tu propia protesis</span>
 
             <v-icon>mdi-creation</v-icon>
           </v-btn>
         </v-bottom-navigation>
         </v-row>
-        <v-row v-if="active_form == 1" cols="12">
-          <v-col v-for="element in catalogo" :key="element" md="6" xs="12">
-            <v-card>
-              <v-card-title>
-                <span class="heading">{{ element.nombre }}</span>
-              </v-card-title>
-              <v-card-text>
-                <v-img
-                  :lazy-src="`${element.img}`"
-                  :src="`${element.img}`"
-                ></v-img>
-                <span><b>{{ element.subtitulo}}</b></span>
-                <br>
-                <ul color="success" v-for="item in element.caracteristicas" :key="item">
-                  <li>
-                    {{item}}
-                  </li>
-                </ul>
-                <br>
-                <v-card-actions>
-                <v-spacer></v-spacer>
-                  <v-btn color="primary" @click="send_form">
-                    <span>Ver más</span>
-                    <v-icon>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </v-card-actions>
-                
-              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row>
-        
+        <Catalog v-if="active_form == 1" cols="12"/>
         <div v-if="active_form == 2" class="mt-3">
           <v-row>
               <v-col cols="12" xs="12" md="5">
@@ -239,15 +202,15 @@
 </template>
 
 <script>
-
+import Catalog from '@/components/sections/subsections/Catalog'
 export default {
   name: 'MakerForm',
   components:{
-
+    Catalog
   },
   data() {
     return {
-      active_form: 0,
+      active_form: 2,
       causas: [
         "Laboral",
         "Accidente fortuito",
@@ -357,13 +320,6 @@ export default {
           
 
       ],
-      form1: {
-        nombre: '',
-        apellidos: '',
-        telefono: '+591 ',
-        email: '',
-        solicitud: '',
-      },
       form2: {
         persona: {
           nombre: '',

@@ -47,19 +47,19 @@ export default {
     return {
       carouselsData: [
         {
-          src: 'main/main-Hero-2.jpeg',
+          src: 'main/main-hero-2.jpeg',
           heading: ' Creotec hace tu prótesis a bajo costo ',
           subHeading:
             'Infographic hypotheses influencer user experience Long madel ture gen-z paradigm shift client partner network product seilans solve management influencer analytics leverage virality. incubator seed round massmarket. buyer agile development growth hacking business-to-consumer ecosystem ',
         },
         {
-          src: 'main/main-Hero-1.jpeg',
+          src: 'main/main-hero-1.jpeg',
           heading: ' Mejora tu calidad de vida con una prótesis personalizada',
           subHeading:
             'Litora a interdum primis. Lectus facilisi sit cum arcu aliquam velit imperdiet sapien suspendisse at vel facilisis. Facilisis metus, curae; nibh mi orci et. Fringilla sociis magna rutrum bibendum arcu.',
         },
         {
-          src: 'main/main-Hero-3.jpeg',
+          src: 'main/main-hero-3.jpeg',
           heading: ' Creotec hace tu prótesis a bajo costo ',
           subHeading:
             'Tellus cum turpis natoque id justo interdum tincidunt faucibus aptent congue pellentesque. Proin luctus orci netus! Scelerisque parturient cursus donec parturient et, luctus aptent habitant aliquet felis. Sapien placerat ultricies.',
