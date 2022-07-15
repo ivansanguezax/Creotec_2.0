@@ -39,7 +39,7 @@
             </v-col>
           </v-row>
         </v-container>
-        <SectionsPricing />
+        <SectionsMakerForm />
       </v-col>
     </v-row>
   </section>

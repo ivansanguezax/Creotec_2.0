@@ -34,7 +34,7 @@
         ></v-col>
         <v-col class="text--secondary text-center text-md-right">
           {{ new Date().getFullYear() }} ©
-          <nuxt-link class="primary--text" to="/">ModeVue</nuxt-link>
+          <nuxt-link class="primary--text" to="/">Creotec</nuxt-link>
         </v-col>
       </v-row>
     </v-container>
