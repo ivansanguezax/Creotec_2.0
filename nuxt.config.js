@@ -38,6 +38,7 @@ export default {
   components: [
     '~/components', // shortcut to { path: '~/components' }
     { path: '~/components/sections/', prefix: 'sections' },
+    { path: '~/components/modals/', prefix: 'modals' },
   ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)

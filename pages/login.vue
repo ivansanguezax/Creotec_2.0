@@ -52,31 +52,5 @@
 </template>
 
 
-<script>
-export default {
-  data() {
-    return {
-      formUsername: "",
-      formPassword1: ""
-    };
-  },
 
-  methods: {
-    // async login() {
-    login(){
-        console.log(this.formUsername);
-        console.log(this.formPassword1);
-    //   try {
-    //     await this.$store.dispatch("login", {
-    //       username: this.formUsername,
-    //       password: this.formPassword1
-    //     });
-
-    //   } catch (e) {
-    //     this.formError = e.message;
-    //   }
-    }
-  }
-};
-</script>
 
