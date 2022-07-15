@@ -3,7 +3,7 @@ const actions = {
         if (!authUser) {
           state.commit('SET_USER', null);
           this.$router.push({
-            path: '/auth/signin'
+            path: '/'
           })
         } else {
           const { uid, email } = authUser;

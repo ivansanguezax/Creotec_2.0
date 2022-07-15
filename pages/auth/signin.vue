@@ -21,6 +21,8 @@
               type="password"
               v-model="auth.password"
             ></v-text-field>
+
+            
           </v-form>
         </v-card-text>
         <v-card-actions class="text-center">
