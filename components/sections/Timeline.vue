@@ -1,7 +1,7 @@
 <template>
   <section id="timeline" class="py-16">
     <v-container>
-      <h2 class="text-h3 text-center font-weight-black mb-8">Our Journey</h2>
+      <h2 class="text-h3 text-center font-weight-black mb-8">Nuestro Recorrido</h2>
       <template>
         <v-timeline>
           <v-timeline-item
@@ -43,19 +43,19 @@ export default {
       years: [
         {
           color: 'cyan',
-          year: '1960',
+          year: '2000',
         },
         {
           color: 'green',
-          year: '1970',
+          year: '2000',
         },
         {
           color: 'pink',
-          year: '1980',
+          year: '2000',
         },
         {
           color: 'amber',
-          year: '1990',
+          year: '2000',
         },
         {
           color: 'orange',

@@ -46,7 +46,7 @@ export default {
       heroAlt: [
         {
           src: 'pexels-andrea-piacquadio-3830745.jpg',
-          heading: ' Gallery ',
+          heading: ' Galeria ',
         },
       ],
     }

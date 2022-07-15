@@ -52,11 +52,7 @@
                   "
                   class="mb-5 font-italic"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam aspernatur, sint recusandae cum temporibus quos saepe
-                  repellendus consectetur et reprehenderit. Ratione ipsam
-                  consequuntur quo eligendi mollitia veniam facere possimus
-                  inventore.
+                  Desde mi accidente perdí mi trabajo y vida social. Con mi prótesis buscare trabajo para mantener a mi familia.
                 </div>
               </v-col>
               <v-col cols="1"
@@ -78,29 +74,24 @@ export default {
     return {
       testimonials: [
         {
-          avtar: 'person-4.jpg',
-          name: 'Mario Speedwagon',
-          post: 'Creative Editor of ABC LTD',
+          avtar: 'icon-user.jpeg',
+          name: 'Blanca Caracara',
         },
         {
-          avtar: 'person-8.jpg',
-          name: 'Petey Cruiser',
-          post: 'CEO of Json LLC',
+          avtar: 'icon-user2.jpg',
+          name: 'Jorge Marca',
         },
         {
-          avtar: 'person-7.jpg',
-          name: 'Anna Sthesia',
-          post: 'Director of Cleaner LTD',
+          avtar: 'icon-user3.jpg',
+          name: 'Jorge Marca',
         },
         {
-          avtar: 'person-10.jpg',
-          name: 'Paul Molive',
-          post: 'Manager of Torson LTD',
+          avtar: 'icon-user.jpeg',
+          name: 'Blanca Caracara',
         },
         {
-          avtar: 'person-9.jpg',
-          name: 'Gail Forcewind',
-          post: 'Human Resource Manager of Humibed LLC',
+          avtar: 'icon-user2.jpg',
+          name: 'Jorge Marca',
         },
       ],
     }

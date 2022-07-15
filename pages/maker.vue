@@ -7,11 +7,11 @@
           <h2
             class="text-h4 text-md-h3 text-center font-weight-black text-capitalize"
           >
-            What we do
+            Conviértete En Un Agente De Cambio
           </h2>
           <p class="text-h6 text-uppercase font-weight-light text-center my-16">
-            Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse
-            condimentum porttitor cursumus.
+            Creotec puede ayudarte a donar una prótesis a personas de bajos recursos.
+
           </p>
           <v-row>
             <v-col
@@ -51,41 +51,41 @@ export default {
     return {
       heroAlt: [
         {
-          src: 'pexels-ekaterina-bolovtsova-4048767.jpg',
-          heading: ' Services ',
+          src: 'maker.jpeg',
+          heading: ' Maker ',
         },
       ],
       cards: [
         {
-          title: 'Material Design',
+          title: 'Pedido',
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
           icon: 'mdi-material-design',
         },
         {
-          title: 'Powerful template',
+          title: 'Pruebas',
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
           icon: 'mdi-desktop-mac',
         },
         {
-          title: 'Retina Ready',
+          title: 'Entrega o Envio',
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
           icon: 'mdi-eye',
         },
-        {
-          title: 'Fast Loading',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
-          icon: 'mdi-speedometer',
-        },
-        {
-          title: 'Unlimited Colors',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
-          icon: 'mdi-infinity',
-        },
-        {
-          title: 'Premium Sliders',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
-          icon: 'mdi-slide',
-        },
+        // {
+        //   title: 'Fast Loading',
+        //   text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+        //   icon: 'mdi-speedometer',
+        // },
+        // {
+        //   title: 'Unlimited Colors',
+        //   text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+        //   icon: 'mdi-infinity',
+        // },
+        // {
+        //   title: 'Premium Sliders',
+        //   text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+        //   icon: 'mdi-slide',
+        // },
       ],
     }
   },
