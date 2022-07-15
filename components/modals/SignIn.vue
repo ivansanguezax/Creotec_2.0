@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <v-dialog
-      v-model="dialog"
+      v-if="!success"
       width="500"
     >
       <template v-slot:activator="{ on, attrs }">
@@ -32,7 +32,7 @@
 
           <v-text-field
             class="col-md-12"
-            v-model="formPassword1"
+            v-model="formPassword"
             label="Contraseña"
             type="password"
           ></v-text-field>
@@ -50,6 +50,18 @@
       </v-card-actions>
       </v-card>
     </v-dialog>
+    <span v-else>
+      Hola {{ user }}
+    </span>
+    <v-snackbar
+        :timeout="4000"
+        v-model="snackbar"
+        absolute
+        bottom
+        center
+      >
+        {{ snackbarText }}
+      </v-snackbar>
   </div>
 </template>
 
@@ -58,24 +70,38 @@ export default {
   data() {
     return {
       formEmail: "",
-      formPassword1: ""
+      formPassword: "",
+      success: false,
+      snackbar: false,
+      snackbarText: "No error message",
+      user: "Sergio"
     };
   },
-
   methods: {
-    // async login() {
-    login(){
-        console.log(this.formEmail);
-        console.log(this.formPassword1);
-    //   try {
-    //     await this.$store.dispatch("login", {
-    //       username: this.formEmail,
-    //       password: this.formPassword1
-    //     });
-
-    //   } catch (e) {
-    //     this.formError = e.message;
-    //   }
+    login() {
+      let that = this
+      this.$fire.auth.signInWithEmailAndPassword(this.formEmail, this.formPassword)
+      .catch(function (error){
+        that.snackbarText = error.message
+        that.snackbar = true
+      }).then((user) => {
+        //we are signed in
+        console.log(user)
+        that.$router.push('/')
+        that.success = true;
+      })
+    },
+    forgotPassword() {
+      let that = this
+      this.$fire.auth.sendPasswordResetEmail(this.formEmail)
+      .then(function (){
+        that.snackbarText = 'reset link sent to ' + that.formEmail
+        that.snackbar = true
+      })
+      .catch(function (error) {
+        that.snackbarText = error.message
+        that.snackbar = true
+      })
     }
   }
 };
