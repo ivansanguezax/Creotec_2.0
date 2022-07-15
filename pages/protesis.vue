@@ -91,7 +91,7 @@ export default {
   },
   head() {
     return {
-      title: 'Services',
+      title: 'Protesis',
       meta: [
         {
           hid: 'description',

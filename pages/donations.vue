@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: 'Pricing and Plans',
+      title: 'Donaciones',
       meta: [
         {
           hid: 'description',

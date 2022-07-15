@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       snackbar: true,
-      text: `We use cookies to give you the best user experience.`,
+      text: `Esta página recolecta cookies para mejorar la experiencia de usuario.`,
     }
   },
 }

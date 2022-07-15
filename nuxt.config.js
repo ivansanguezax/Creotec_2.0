@@ -6,8 +6,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ModeVue',
-    title: 'Home',
+    titleTemplate: '%s | Creotec',
+    title: 'Inicio',
     htmlAttrs: {
       lang: 'en',
     },
@@ -93,6 +93,12 @@ export default {
         },
       })
     },
+    hotMiddleware: {
+      client: {
+        // turn off client overlay when errors are present
+        overlay: false
+      }
+    }
   },
 
   

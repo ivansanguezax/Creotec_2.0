@@ -47,23 +47,21 @@ export default {
     return {
       cards: [
         {
-          title: 'Best Productivity',
-          subtitle: 'Professionally developed',
-          text: 'All components and features are developed using the most up-to-date coding practices.',
+          title: 'Consigue tu Prótesis',
+          text: 'Conoce como Creotec hace tu prótesis personalizada',
           callout: '01',
         },
         {
-          title: 'Fast & optimized',
-          subtitle: 'Performance',
-          text: 'Themes are designed for maximum performance and are semantically structured to maximize SEO.',
+          title: 'Solicita una donación',
+          text: 'Creotec puede donar prótesis a personas de bajos recursos',
           callout: '02',
         },
         {
-          title: 'Built on Vuetify',
-          subtitle: 'Material Design',
-          text: "Being developed with Vuetify means you have access to all of the framework's available features.",
+          title: 'Creotec para empresas',
+          text: "Hacemos proyectos de RSE para impactar a tu comunidad",
           callout: '03',
         },
+        
       ],
     }
   },

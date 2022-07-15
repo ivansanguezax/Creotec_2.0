@@ -91,7 +91,7 @@ export default {
   },
   head() {
     return {
-      title: 'Services',
+      title: 'Maker',
       meta: [
         {
           hid: 'description',

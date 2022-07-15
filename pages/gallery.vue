@@ -53,7 +53,7 @@ export default {
   },
   head() {
     return {
-      title: 'Gallery',
+      title: 'Galeria',
       meta: [
         {
           hid: 'description',

@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: 'Pricing and Plans',
+      title: 'Clientes',
       meta: [
         {
           hid: 'description',

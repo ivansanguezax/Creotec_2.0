@@ -4,12 +4,12 @@
       <v-row>
         <v-col class="text-center">
           <h2 class="text-h4 text-md-h3 text-center font-weight-black">
-            Build your website with this Theme
+            Pasos para obtener tu prótesis
           </h2>
           <div
             class="text-h5 text-md-h4 text-center font-weight-black py-3 mb-10"
           >
-            Purchase now. Only $49!
+            Creotec puede donar prótesis a personas de bajos recursos
           </div>
         </v-col>
       </v-row>
@@ -37,7 +37,7 @@
       </v-row>
       <v-row no-gutters>
         <v-btn x-large rounded color="white primary--text mx-auto mt-10 px-16">
-          <v-icon dark left> mdi-check-bold </v-icon>Buy It Now
+          <v-icon dark left> mdi-check-bold </v-icon>Pidelo Ya!
         </v-btn>
       </v-row>
     </v-container>
@@ -50,21 +50,19 @@ export default {
     return {
       cards: [
         {
-          title: 'Material Design',
-          subtitle: 'Best Productivity',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          title: 'Solicitud',
+          text: 'Solicitas tu prótesis y te confirmamos el inicio de su fabricación',
           callout: '01',
         },
         {
-          title: 'Affordable Prices',
-          subtitle: 'Special Offers',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          title: 'Pruebas',
+          text: 'El equipo de Creotec diseña la prótesis a tu medida.',
           callout: '02',
         },
         {
-          title: 'Fast Loading',
+          title: 'Pago Final',
           subtitle: 'Income Flow',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          text: 'Pago final y entrega de tu prótesis terminada y la garantía.',
           callout: '03',
         },
       ],

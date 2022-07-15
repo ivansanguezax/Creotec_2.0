@@ -127,7 +127,7 @@ export default {
   },
   head() {
     return {
-      title: 'Contact Us',
+      title: 'Contacto',
       meta: [
         {
           hid: 'description',

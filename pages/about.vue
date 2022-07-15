@@ -211,7 +211,7 @@ export default {
   },
   head() {
     return {
-      title: 'About Us',
+      title: 'Acerca de',
       meta: [
         {
           hid: 'description',

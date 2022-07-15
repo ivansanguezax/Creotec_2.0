@@ -5,7 +5,7 @@
     class="py-16"
   >
     <h2 class="text-h4 text-md-h3 text-center font-weight-black mb-8 my-8">
-      Customer Reviews
+      Valoración de los clientes
     </h2>
     <v-carousel
       cycle
