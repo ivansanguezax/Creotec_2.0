@@ -2,7 +2,7 @@
   <section>
     <v-row no-gutters>
       <v-col cols="12">
-        <SectionsHeroAlt :hero-alt="heroAlt" />
+        <SectionsHeroAlt :hero-alt="heroAlt" />       
         <v-container>
           <v-row class="py-16">
             <v-col cols="12">
