@@ -2,7 +2,6 @@
   <div class="text-center">
     <v-dialog
       width="500"
-      v-if= "!success"
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
@@ -51,7 +50,7 @@
       </v-card>
     </v-dialog>
     <v-dialog
-      v-if="!success"
+      
       width="500"
     >
       <template v-slot:activator="{ on, attrs }">
@@ -101,7 +100,7 @@
       </v-card-actions>
       </v-card>
     </v-dialog>
-    <a href="#" @click="signout" color="success" v-else>
+    <a href="#" @click="signout" color="success">
       Hola, {{ user }}
     </a>
     <v-snackbar
@@ -122,7 +121,6 @@ export default {
     return {
       formEmail: "",
       formPassword: "",
-      success: false,
       snackbar: false,
       snackbarText: "No error message",
       user: "Sergio"
@@ -139,7 +137,6 @@ export default {
         //we are signed in
         console.log(user)
         that.$router.push('/')
-        that.success = true;
       })
     },
     forgotPassword() {
@@ -164,12 +161,11 @@ export default {
         //we are signed in
         console.log(user)
         that.$router.push('/')
-        that.success = true;
       })
     },
     signout() {
         this.$fire.auth.signOut()
-        this.success = false;
+        this.$router.push('/')
     },
   }
 };
