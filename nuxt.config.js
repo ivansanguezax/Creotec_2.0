@@ -48,8 +48,36 @@ export default {
     '@nuxtjs/vuetify',
   ],
 
+
+  router: {
+    middleware: ['auth']
+  },
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: [
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyAsjMEpP5dS1eNZMRGfu1pRYZiMYisAHhc",
+          authDomain: "creotec-bb78f.firebaseapp.com",
+          projectId: "creotec-bb78f",
+          storageBucket: "creotec-bb78f.appspot.com",
+          messagingSenderId: "625893599624",
+          appId: "1:625893599624:web:d779c04c398261b3d4323d"
+        },
+        services: {
+          auth: {
+            persistence: 'local', // default
+            initialize: {
+              onAuthStateChangedAction: 'onAuthStateChangedAction',
+              subscribeManually: false
+            },
+            ssr: false, // default
+          }
+        }
+      }
+    ]
+  ],
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
