@@ -54,19 +54,20 @@ export default {
       '@nuxtjs/firebase',
       {
         config: {
-          apiKey: '<apiKey>',
-          authDomain: '<authDomain>',
-          projectId: '<projectId>',
-          storageBucket: '<storageBucket>',
-          messagingSenderId: '<messagingSenderId>',
-          appId: '<appId>',
-          measurementId: '<measurementId>'
+          apiKey: "AIzaSyAsjMEpP5dS1eNZMRGfu1pRYZiMYisAHhc",
+          authDomain: "creotec-bb78f.firebaseapp.com",
+          projectId: "creotec-bb78f",
+          storageBucket: "creotec-bb78f.appspot.com",
+          messagingSenderId: "625893599624",
+          appId: "1:625893599624:web:d779c04c398261b3d4323d"
         },
         services: {
-          auth: true // Just as example. Can be any other service.
+          auth: true,
+          firestore: true,
         }
       }
-    ]
+    ],
+    'bootstrap-vue/nuxt',
   ],
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
@@ -101,15 +102,17 @@ export default {
 
   build: {
     extend(config, ctx) {
-      config.module.rules.push({
-        enforce: 'pre',
-        test: /\.(js|vue)$/,
-        loader: 'eslint-loader',
-        exclude: /(node_modules)/,
-        options: {
-          fix: true,
-        },
-      })
+      if (ctx.dev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+          options: {
+            fix: true
+          }
+        })
+      }
     },
   },
 }
