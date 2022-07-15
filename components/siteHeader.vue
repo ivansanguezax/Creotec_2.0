@@ -85,6 +85,7 @@
           >{{ name.title }}</v-btn
         > </template
       ><v-spacer />
+      <ModalsSignUp />
       <ModalsSignIn />
     </v-app-bar>
   </div>
