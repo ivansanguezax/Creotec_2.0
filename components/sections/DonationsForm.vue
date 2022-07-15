@@ -52,6 +52,7 @@
 </template>
 
 <script>
+import { addOrder } from '@/plugins/firestore_cd.js'
 export default {
     data() {
         return {
@@ -64,6 +65,12 @@ export default {
             },
         }
     },
+    methods: {
+        send_form() {
+            console.log(this.form1);
+            addOrder(this.form1);
+        },
+    }
 }
 </script>
 

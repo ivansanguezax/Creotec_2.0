@@ -3,6 +3,7 @@
     <siteHeader />
     <v-main>
       <nuxt />
+      <dark-fab />
       <footerTop />
     </v-main>
     <siteFooter />
@@ -14,11 +15,13 @@
 import siteHeader from '~/components/siteHeader.vue'
 import footerTop from '~/components/footerTop.vue'
 import siteFooter from '~/components/siteFooter.vue'
+import DarkFab from '~/components/DarkFab.vue'
 export default {
   components: {
     siteHeader,
     footerTop,
     siteFooter,
+    DarkFab,
   },
   head() {
     return {
