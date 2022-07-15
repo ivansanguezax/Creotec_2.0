@@ -85,12 +85,7 @@
           >{{ name.title }}</v-btn
         > </template
       ><v-spacer />
-
-      <v-btn icon @click="changeThemeColor">
-        <v-icon>{{
-          $vuetify.theme.dark ? 'mdi-white-balance-sunny' : 'mdi-weather-night'
-        }}</v-icon>
-      </v-btn>
+      <ModalsSignIn />
     </v-app-bar>
   </div>
 </template>
@@ -144,15 +139,6 @@ export default {
         },
       ],
     }
-  },
-  methods: {
-    changeThemeColor() {
-      if (this.$vuetify.theme.dark === true) {
-        this.$vuetify.theme.dark = false
-      } else {
-        this.$vuetify.theme.dark = true
-      }
-    },
   },
 }
 </script>
