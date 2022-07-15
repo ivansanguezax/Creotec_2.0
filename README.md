@@ -1,19 +1,17 @@
 # [Creotec](https://modevue.staticdesigner.com) <img src="https://img.shields.io/badge/version-1.2.0-blue.svg" alt="Version">
 
-**ModeVue** — is a carefully crafted multi-purpose, responsive, and gorgeous theme. Built with Vue.js and Nuxt.js, it comes with the features you need to quickly start developing your application.
-
-The theme is based on [Material Design Specification](https://material.io/guidelines/). We have used [Vuetify](https://vuetifyjs.com/) as the front-end design framework.
+**Creotec** — Crear acceso a prótesis a todas las personas que lo necesitan para mejorar su calidad de vida.
 
 ## Build Setup
 
-You will need a Windows, Mac, or Linux computer with access to the command-line and permission to install new system packages. An active internet connection is required in order to install the following required software:
+Necesitará una computadora con Windows, Mac o Linux con acceso a la línea de comandos y permiso para instalar nuevos paquetes del sistema. Se requiere una conexión a Internet activa para instalar el siguiente software requerido:
 
 - Node https://nodejs.org/en/
 - NPM https://www.npmjs.com/
 - Yarn https://yarnpkg.com/
 - Vue CLI https://cli.vuejs.org/
 
-Using the terminal, navigate to the folder containing the unzipped theme and run the `npm install` command. This will install all of the required packages and prepare your project for local development and production deployment. Once complete, type `npm run dev` and press the <kbd>enter</kbd> key. Vue CLI will then compile the project and serve a local server located at http://localhost:8080.
+Usando la terminal, navegue a la carpeta que contiene el tema descomprimido y ejecute el comando `npm install`. Esto instalará todos los paquetes necesarios y preparará su proyecto para el desarrollo local y la implementación de producción. Una vez completado, escriba `npm run dev` y presione la tecla <kbd>enter</kbd>. Vue CLI luego compilará el proyecto y atenderá un servidor local ubicado en http://localhost:8080.
 
 ```bash
 # install dependencies
@@ -32,24 +30,10 @@ $ npm run generate
 
 <br>
 
-## Demo
 
-[ModeVue live demo](https://modevue.staticdesigner.com)
-<a href="https://modevue.staticdesigner.com"><img src="https://modevue.staticdesigner.com/dark.png"></a>
+# Compatibilidad con navegador
 
-<br>
-
-## Quick Facts
-
-**Professionally developed**. All components and features are developed using the most up-to-date coding practices.
-
-**Blazing fast & optimized**. Themes are designed for maximum performance and are semantically structured to maximize SEO.
-
-**Built on Vuetify**. Being developed with Vuetify means you have access to all of the frameworks available features.
-
-# Browser Support
-
-At present, we officially aim to support the last two versions of the following browsers:
+Actualmente, nuestro objetivo oficial es admitir las dos últimas versiones de los siguientes navegadores:
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/firefox.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/edge.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/safari.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/opera.png" width="64" height="64">
 
@@ -62,19 +46,5 @@ At present, we officially aim to support the last two versions of the following 
 
 <br>
 
-## Highlights
 
-- Beautiful design with 8 complete pre-built page examples
-- Integrated lazy-loading and mobile first optimized
-- Built on Vue & Vuetify using Vue CLI
-- Supports customized SASS / SCSS variables
-- RTL Included
-- Responsive support down to 320px width
-- Support through [Github Issues](https://github.com/staticdesigner/modevue/issues)
-- Integrated with Material Design Icons (mdi)
-- Also supports Material Icons and Font Awesome
-- Easily Customized theme options
-- Well commented and clean code
-- Optimized for SEO and Accessibility
-
-Still have **questions** about this theme? Reach out to us by [email](mailto:vinay@staticdesigner.com).
+¿Todavía tienes **preguntas** sobre este tema? Comuníquese con nosotros por [email](mailto:ariveros@creo-tec.com).
