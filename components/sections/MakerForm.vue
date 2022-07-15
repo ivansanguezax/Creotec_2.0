@@ -460,9 +460,24 @@ export default {
   },
   methods: {
     send_form(){
-      this.active_form == 1
-      ? console.log(this.form1)
-      : console.log(this.form2);
+      if(this.active_form == 1){
+        //TODO: Upload form1 to firestore
+        this.$fire.firestore.collection("orders").doc("data / "+Math.random()*100).set(this.form1)
+        .then(function() {
+          console.log("Document successfully written!");
+        })
+        .catch(function(error) {
+          console.error("Error writing document: ", error);
+        });
+      }else{
+        this.$fire.firestore.collection("maker_orders").doc("data"+Math.random()*100).set(this.form2)
+        .then(function() {
+          console.log("Document successfully written!");
+        })
+        .catch(function(error) {
+          console.error("Error writing document: ", error);
+        });
+      }
     },
   }
 }

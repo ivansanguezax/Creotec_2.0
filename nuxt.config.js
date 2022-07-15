@@ -72,7 +72,8 @@ export default {
               subscribeManually: false
             },
             ssr: false, // default
-          }
+          },
+          firestore: true
         }
       }
     ]
