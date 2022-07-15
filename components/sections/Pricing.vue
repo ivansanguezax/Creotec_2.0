@@ -8,13 +8,11 @@
               <h2
                 class="text-h4 text-md-h3 text-center font-weight-black text-capitalize mb-4"
               >
-                The most affordable pricing
+                El precio más asequible
               </h2>
 
               <p class="my-10 title">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
+                Creotec puede donar prótesis a personas de bajos recursos
               </p>
               <div class="text-center">
                 <v-btn-toggle
@@ -102,14 +100,14 @@
 export default {
   data() {
     return {
-      planDuration: 'monthly',
+      planDuration: 'Mensual',
       plans: [
         {
-          plan: 'Basic',
+          plan: 'Basico',
           elevation: 0,
           color: 'primary darken-1',
           description: 'Best Plan for Small Businesses',
-          monthly: '$10',
+          monthly: 'Gratis',
           yearly: '$100',
           features: [
             {

@@ -7,7 +7,7 @@
           <h2
             class="text-h4 text-md-h3 text-center font-weight-black text-capitalize"
           >
-            What we do
+            Nuestro Catalogo
           </h2>
           <p class="text-h6 text-uppercase font-weight-light text-center my-16">
             Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse
@@ -39,7 +39,6 @@
             </v-col>
           </v-row>
         </v-container>
-        <SectionsPricing />
       </v-col>
     </v-row>
   </section>
@@ -52,7 +51,7 @@ export default {
       heroAlt: [
         {
           src: 'pexels-ekaterina-bolovtsova-4048767.jpg',
-          heading: ' Services ',
+          heading: 'Protesis ',
         },
       ],
       cards: [

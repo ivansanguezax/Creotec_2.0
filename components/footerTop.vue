@@ -16,10 +16,7 @@
             </v-col>
             <v-col cols="12">
               <p class="mt-8 text-justify" style="max-width: 400px">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-                pariatur quidem, quis modi iure nihil commodi suscipit, corporis
-                dicta adipisci, voluptatum quia cupiditate. Nulla minus
-                voluptatum nostrum deleniti, asperiores facere.
+                Las prótesis de Creotec son accesibles para tu economía y de alta calidad. Creotec te envia pruebas de la prótesis hasta que esta sea perfecta para ti
               </p>
             </v-col>
             <v-col cols="12">
@@ -30,9 +27,9 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>ADDRESS</v-list-item-title>
+                    <v-list-item-title>DIRECCIÓN</v-list-item-title>
                     <v-list-item-subtitle
-                      >1400 Main Street, Orlando, FL 79938</v-list-item-subtitle
+                      >Av. Busch esquina Pasoskanki #1599</v-list-item-subtitle
                     >
                   </v-list-item-content>
                 </v-list-item>
@@ -43,12 +40,9 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>EMAIL</v-list-item-title>
+                    <v-list-item-title>CORREO ELECTRONICO</v-list-item-title>
                     <v-list-item-subtitle
-                      >info@example.com</v-list-item-subtitle
-                    >
-                    <v-list-item-subtitle
-                      >support@example.com</v-list-item-subtitle
+                      >ariveros@creo-tec.com</v-list-item-subtitle
                     >
                   </v-list-item-content>
                 </v-list-item>
@@ -61,9 +55,8 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>PHONE</v-list-item-title>
-                    <v-list-item-subtitle>(323) 555-6789</v-list-item-subtitle>
-                    <v-list-item-subtitle>(650) 555-1234</v-list-item-subtitle>
+                    <v-list-item-title>TELEFONO</v-list-item-title>
+                    <v-list-item-subtitle>(+591) 77540218</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
                 <v-divider></v-divider>
@@ -89,7 +82,7 @@
           <v-divider vertical></v-divider>
         </v-col>
         <v-col cols="12" md="5" class="py-12">
-          <h3 class="mb-8">SEND YOUR MESSAGE</h3>
+          <h3 class="mb-8">ENVIAR TU MENSAJE</h3>
           <footerContactForm />
         </v-col>
       </v-row>
@@ -108,28 +101,23 @@ export default {
       social: [
         {
           platform: 'Facebook',
-          link: 'https://www.facebook.com/',
+          link: 'https://www.facebook.com/creotec',
           icon: 'mdi-facebook',
         },
         {
-          platform: 'Twitter',
-          link: 'https://twitter.com/',
-          icon: 'mdi-twitter',
-        },
-        {
           platform: 'Instagram',
-          link: 'https://www.instagram.com/',
+          link: 'https://www.instagram.com/creotecbolivia/',
           icon: 'mdi-instagram',
         },
         {
           platform: 'Linkedin',
-          link: 'https://www.linkedin.com/',
+          link: 'https://www.linkedin.com/company/creotec-bolivia/',
           icon: 'mdi-linkedin',
         },
         {
-          platform: 'Github',
-          link: 'https://modevue.staticdesigner.com/',
-          icon: 'mdi-github',
+          platform: 'Youtube',
+          link: 'https://www.youtube.com/channel/UCFhowzZjG86I_UZh2AByZmw',
+          icon: 'mdi-youtube',
         },
       ],
     }
