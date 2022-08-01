@@ -34,7 +34,7 @@
     </v-navigation-drawer>
 
     <v-app-bar fixed app hide-on-scroll height="64" elevate-on-scroll>
-      <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer = true" />
+      <v-app-bar-nav-icon class="hidden-lg-and-up" @click="drawer = true" />
       <nuxt-link to="/" class="d-flex">
         <Logo />
       </nuxt-link>
@@ -52,7 +52,7 @@
             <template v-slot:activator="{ on, attrs }">
               <v-btn
                 plain
-                class="py-5 submenubtn hidden-sm-and-down"
+                class="py-5 submenubtn hidden-lg-and-down"
                 :ripple="false"
                 v-bind="attrs"
                 style="height: auto"
@@ -80,7 +80,7 @@
           depressed
           tile
           plain
-          class="py-8 hidden-sm-and-down"
+          class="py-8 hidden-md-and-down"
           :to="name.to"
           >{{ name.title }}</v-btn
         > </template
