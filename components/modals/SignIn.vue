@@ -143,7 +143,9 @@ export default {
         console.log(user)
         console.log(that.$fire.auth.currentUser.multiFactor.user.email)
         that.signInDialog = false
+        that.user = (that.$fire.auth.currentUser.multiFactor.user.email).split('@')[0]
         that.$router.push('/')
+        location.reload();
       })
     },
     forgotPassword() {
@@ -169,11 +171,13 @@ export default {
         console.log(user)
         that.signUpDialog = false
         that.$router.push('/')
+        location.reload();
       })
     },
     signout() {
         this.$fire.auth.signOut()
         this.$router.push('/')
+        location.reload();
     },
   }
 };
