@@ -27,6 +27,18 @@
 
           <v-text-field
             class="col-md-12"
+            v-model="formName"
+            label="Nombre"
+          ></v-text-field>
+          
+          <v-text-field
+            class="col-md-12"
+            v-model="formPhone"
+            label="Telefono"
+          ></v-text-field>
+
+          <v-text-field
+            class="col-md-12"
             v-model="formEmail"
             label="Correo"
           ></v-text-field>
@@ -35,6 +47,13 @@
             class="col-md-12"
             v-model="formPassword"
             label="Contraseña"
+            type="password"
+          ></v-text-field>
+
+          <v-text-field
+            class="col-md-12"
+            v-model="formPassword2"
+            label="Repetir Contraseña"
             type="password"
           ></v-text-field>
         </v-list-item-content>
@@ -88,6 +107,7 @@
             label="Contraseña"
             type="password"
           ></v-text-field>
+
         </v-list-item-content>
       </v-list-item>
       <a class="ml-4" href="#" @click="forgotPassword">¿Olvidaste tu contraseña?</a>
@@ -125,6 +145,9 @@ export default {
     return {
       formEmail: "",
       formPassword: "",
+      formName:"",
+      formPhone:"",
+      formPassword2:"",
       snackbar: false,
       snackbarText: "No error message",
       user: "Sergio",
@@ -146,7 +169,7 @@ export default {
         that.signInDialog = false
         that.user = (that.$fire.auth.currentUser.multiFactor.user.email).split('@')[0]
         that.$router.push('/')
-        location.reload();
+        // location.reload();
       })
     },
     forgotPassword() {
@@ -172,7 +195,7 @@ export default {
         console.log(user)
         that.signUpDialog = false
         that.$router.push('/')
-        location.reload();
+        // location.reload();
       })
     },
     signout() {

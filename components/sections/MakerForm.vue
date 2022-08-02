@@ -195,6 +195,11 @@
                   ></v-img>
               </v-col>
           </v-row>
+          <v-row>
+            <v-col>
+                <v-btn color="primary" block>Enviar</v-btn>
+            </v-col>
+          </v-row>
         </div>
         
     </v-container>
