@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/protesis", {data:[{}],fetch:{},mutations:[]});

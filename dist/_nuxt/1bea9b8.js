@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{639:function(n,t,c){"use strict";c.r(t);var e={asyncData:function(n){n.app.$fire.auth.signOut()}},l=c(31),component=Object(l.a)(e,(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);t.default=component.exports}}]);
